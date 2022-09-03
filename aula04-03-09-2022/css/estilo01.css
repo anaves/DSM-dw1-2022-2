@@ -1,0 +1,20 @@
+body{
+    background-color: darkgrey;
+}
+
+ul li{
+    list-style: square;
+}
+
+ol{
+    list-style-type: upper-latin;
+}
+
+p{
+    color: white;
+    background-color: black;
+}
+
+h1,h2,h3{
+    color: darkmagenta;
+}

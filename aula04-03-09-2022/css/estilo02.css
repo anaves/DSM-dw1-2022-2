@@ -1,0 +1,17 @@
+body{
+    background-color: blanchedalmond;
+}
+
+#conteudo{
+    color: coral;
+    background-color: azure;
+}
+
+p{
+    color: blue;
+}
+
+.paragrafo1{
+    color: white;
+    background-color: black;
+}
