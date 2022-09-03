@@ -1,0 +1,16 @@
+body { 
+    background-color: rgb(201, 201, 237); 
+}
+p { 
+    text-align: center; 
+    font-size: large;
+    font-family: Georgia, serif;
+    color: red;
+}
+h1,h2,h3{
+    color: green;
+}
+h4,h5,h6{
+    color: darkblue;
+}
+

@@ -1,0 +1,24 @@
+body { 
+    font-family: Verdana, Arial, sans-serif; 
+    font-size: 14px; 
+    color: blue;
+    background-color: rgb(105, 168, 197);
+    background-image: url("imagens/pixel.jpg");
+
+}
+
+p{
+    color: red;
+    background-color: yellow;
+    text-align: justify;
+    text-indent: 1cm;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+   text-transform: uppercase; 
+}
