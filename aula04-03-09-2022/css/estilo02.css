@@ -8,10 +8,16 @@ body{
 }
 
 p{
-    color: blue;
+    color: #234a89;
 }
 
 .paragrafo1{
     color: white;
     background-color: black;
+    font-weight: bold;
+}
+
+.paragrafo2{
+    color:chartreuse;
+    background-color: red;
 }
