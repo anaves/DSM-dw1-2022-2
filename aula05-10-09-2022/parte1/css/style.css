@@ -1,0 +1,13 @@
+.conteudo{
+    background-color: aqua;
+    color: white;
+}
+
+#cabecalho{
+    background-color: blue;
+    color: white;
+}
+
+#destaque{
+    font-weight: bold;
+}
