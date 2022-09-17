@@ -1,0 +1,20 @@
+main{
+    display: flex;
+}
+.primeira{
+    width: 33.33%;
+    height: 150px;
+    background-color: blue;
+    color: white;
+}
+.segunda{
+    width: 33.33%;
+    height: 150px;
+    background-color: red;
+    color: white;
+}
+.terceira{
+    width: 33.33%;
+    height: 150px;
+    background-color: yellow;
+}
