@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanhos variados de imagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Imagem diferente de acordo com tamanho de tela</h1>
+    <picture>
+        <source media="(max-width:500px )" srcset="images/pequena.png" type="image/png">
+        <source media="(max-width:650px )" srcset="images/media.png" type="image/png">
+        <img src="images/grande.png" alt="exemplo de uma img">
+    </picture>
+    <h1>Outra forma</h1>
+    <img srcset="images/pequena.png 500w,
+                images/media.png 650w,
+                images/grande.png 800w"
+     sizes="(max-width: 500px) 450px,
+            (max-width: 650px) 600px,
+            800px"
+     src="images/grande.png" alt="Elva dressed as a fairy">
+    
+     <h1>Terceira abordagem</h1>
+     <img class="imagem" srcset="images/pequena.png,
+            images/media.png 1.5x,
+            images/grande.png 2x"
+     src="images/grande.png" alt="Elva dressed as a fairy">
+</body>
+</html>
