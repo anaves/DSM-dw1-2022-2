@@ -6,14 +6,18 @@ main{
     height: 150px;
     background-color: blue;
     color: white;
+    border: 15px dashed yellow;
 }
 .segunda{
+    margin: 30px;
     width: 33.33%;
     height: 150px;
     background-color: red;
     color: white;
 }
 .terceira{
+    padding-top: 15px;
+    padding-left: 40px;
     width: 33.33%;
     height: 150px;
     background-color: yellow;

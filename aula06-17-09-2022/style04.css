@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #ddd;
+    width: 100%;
+
+}
+
+#topo{
+    display: flex;
+    align-items: center;
+}
+
+.h1topo{
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav{
+    background-color: #00adef;
+}
+
+nav a:hover{
+    color: black;
+    background-color: rgb(235, 219, 219);
+    text-decoration: none;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    background-color: #ddd;
+    color:#7171ea;
+}
+
+figure img{
+    width: 60%;
+    height: 60%;
+}
+
+figure{
+    position: relative;
+    border: 6px solid rgb(69, 69, 127);
+    display: flex;
+    box-shadow: 1px 1px 4px 0px black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+figure figcaption{
+    opacity: 0;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+figure:hover figcaption{
+    opacity: 1;
+}
+
+footer{
+    background-color: #ddd;
+    color:#7171ea;
+    display: flex;
+    justify-content: center;
+}
